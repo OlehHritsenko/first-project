@@ -1,0 +1,214 @@
+html {
+   box-sizing: border-box;
+}
+    
+   *,
+   *::before,
+   *::after {
+   box-sizing: inherit;
+}
+    
+.clearfix {
+   display: table;
+   content: "";
+   clear: both;
+}
+
+.container {
+   width: 1440px;
+   margin: 0 auto;
+}
+
+.site-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 34px;
+    padding-bottom: 36px;
+}
+
+
+.site-logo {
+    display: inline-block;
+    width: 186px;
+    height: 28px;
+    margin: 0;
+    margin-left: 150px;
+    padding: 0;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    width: 515px;
+    height: 28px;
+    margin-left: 108px;
+    margin-right: 108px;
+    padding: 0px;
+}
+
+.click {
+    position: relative;
+    list-style: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.click a {
+    text-decoration: none;
+    color: #686C77;
+}
+
+.click a::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 6px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: #4370bd;
+}
+
+.clic a:active::after,
+.click a:hover::after {
+    width: 100%;
+}
+
+.site-menu .phone {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 224px;
+}
+
+.phone {
+    position: relative;
+}
+
+.phone::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -30px;
+    top: -6px;
+    width: 1.5px;
+    height: 40px;
+    background: #EDEDED;
+}
+
+.phone-icon {
+    margin-right: 10px;
+    margin-bottom: 6px;
+}
+
+.phone-numb {
+    width: auto;
+    height: 28px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    font-style: normal;
+    color: #B38876;
+    margin: 0;
+}
+
+.click .phone-numb {
+    color: #B38876;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 1440px;
+    height: 722px;
+    background: #F8F8FA;
+}
+
+.hero-info {
+    width: 720px;
+    padding-left: 150px;
+    padding-top: 106px;
+    padding-bottom: 106px;
+}
+
+.hero-time {
+    position: relative;
+    width: 300px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    margin: 0;
+    margin-bottom: 26px;
+    padding-left: 30px;
+    color: #234255;
+}
+
+.hero-time::before {
+    content:url(img/logo/Vector-STAR.svg);
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    transform: translateY(-5%);
+}
+
+.hero-title {
+    width: 510px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 125%;
+    margin: 0;
+    margin-bottom: 34px;
+    color: #234255;
+}
+
+.hero-quote {
+    width: 380px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
+    margin: 0;
+    margin-bottom: 50px;
+    color: #686C77;
+}
+
+.hero-button {
+    width: 238px;
+    height: 70px;
+    background: #B38876;
+    border: none;
+    padding: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.hero-button:active,
+.hero-button:hover {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #8a2be2;
+}
+
+.hero-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
