@@ -86,7 +86,7 @@ body {
 }
 
 .hero-time::before {
-    content:url(img/logo/Vector-STAR.svg);
+    content:url(IMG/logo/Vector-STAR.svg);
     position: absolute;
     left: 0;
     width: 20px;
@@ -138,7 +138,7 @@ body {
 }
 
 .achievement::before {
-    content: url(img/logo/Vector-STAR.svg);
+    content: url(IMG/logo/Vector-STAR.svg);
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -185,7 +185,7 @@ body {
 }
 
 .advantages-card::before {
-    content: url(img/logo/image-tree.png);
+    content: url(IMG/logo/image-tree.png);
     display: inline-block;
     width: 38px;
     height: 34px;
@@ -276,7 +276,7 @@ body {
 }
 
 .methods-top::before {
-    content: url(img/logo/Vector-STAR.svg);
+    content: url(IMG/logo/Vector-STAR.svg);
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -354,7 +354,7 @@ body {
 }
 
 .offer-text::before {
-    content: url(img/logo/Vector-STAR.svg);
+    content: url(IMG/logo/Vector-STAR.svg);
     display: inline-block;
     position: absolute;
     left: 0;
@@ -464,7 +464,7 @@ body {
 
 .offer-link::after {
     position: absolute;
-    content: url(img/logo/arrow-short_right.svg);
+    content: url(IMG/logo/arrow-short_right.svg);
     transform: translateY(-5%);
     width: 16px;
     height: 18px;
@@ -502,7 +502,7 @@ body {
 
 .docs::before {
     position: absolute;
-    content: url(img/logo/Vector-STAR.svg);
+    content: url(IMG/logo/Vector-STAR.svg);
     display: inline-block;
     left: 0;
     transform: translateY(-10%);
@@ -558,7 +558,7 @@ body {
 
 .form-text::before {
     position: absolute;
-    content: url(img/logo/Vector-STAR.svg);
+    content: url(IMG/logo/Vector-STAR.svg);
     display: inline-block;
     left: 0;
     transform: translateY(-10%);
@@ -685,7 +685,7 @@ body {
 
 .comment-text::before {
     position: absolute;
-    content: url(img/logo/Vector-STAR.svg);
+    content: url(IMG/logo/Vector-STAR.svg);
     display: inline-block;
     left: 0;
     transform: translateY(-10%);
@@ -738,7 +738,7 @@ body {
 }
 
 .comment-card::before {
-    content: url(img/logo/Icon.png);
+    content: url(IMG/logo/Icon.png);
     position: absolute;
 }
 
@@ -816,7 +816,7 @@ body {
 
 .choice-name::before {
     position: absolute;
-    content: url(img/logo/Vector-STAR.svg);
+    content: url(IMG/logo/Vector-STAR.svg);
     display: inline-block;
     left: 0;
     transform: translateY(-10%);
@@ -863,7 +863,7 @@ body {
     left: 0;
     top: 0;
     background-repeat: no-repeat;
-    background-image: url(img/logo/image-tree.png);
+    background-image: url(IMG/logo/image-tree.png);
     background-position: center;
     background-color: #0E426D;
 }
@@ -954,7 +954,7 @@ body {
 
 .question-text::before {
     display: block;
-    content: url(img/logo/Vector-STAR.svg);
+    content: url(IMG/logo/Vector-STAR.svg);
     position: absolute;
     left: 0;
     transform: translateY(-10%);
@@ -1026,7 +1026,7 @@ body {
 
 .order {
     display: inline-block;
-    background-image: url(img/image/formImage.jpg);
+    background-image: url(IMG/image/formImage.jpg);
 }
 
 .order-image-title {
@@ -1068,7 +1068,7 @@ body {
     position: absolute;
     right: 0;
     top: 0;
-    content: url(img/logo/arrow-short_right.svg);
+    content: url(IMG/logo/arrow-short_right.svg);
     transform: translateY(-5%);
     width: 16px;
     height: 18px;
@@ -1175,7 +1175,7 @@ body {
     left: 0;
     transform: translateY(-21%);
     background-repeat: no-repeat;
-    background-image: url(img/logo/coolicon.svg);
+    background-image: url(IMG/logo/coolicon.svg);
     background-position: center;
     background-color: #FAF7F7;
 }
@@ -1189,7 +1189,7 @@ body {
     left: 0;
     transform: translateY(-21%);
     background-repeat: no-repeat;
-    background-image: url(img/logo/coolicon1.svg);
+    background-image: url(IMG/logo/coolicon1.svg);
     background-position: center;
     background-color: #FAF7F7;
 }
@@ -1203,7 +1203,7 @@ body {
     left: 0;
     transform: translateY(-21%);
     background-repeat: no-repeat;
-    background-image: url(img/logo/coolicon2.svg);
+    background-image: url(IMG/logo/coolicon2.svg);
     background-position: center;
     background-color: #FAF7F7;
 }
@@ -1217,7 +1217,7 @@ body {
     left: 0;
     transform: translateY(-21%);
     background-repeat: no-repeat;
-    background-image: url(img/logo/coolicon3.svg);
+    background-image: url(IMG/logo/coolicon3.svg);
     background-position: center;
     background-color: #FAF7F7;
 }
@@ -1345,7 +1345,7 @@ body {
     position: absolute;
     right: 0;
     top: 0;
-    content: url(img/logo/arrow-short_right.svg);
+    content: url(IMG/logo/arrow-short_right.svg);
     transform: translateY(-10%);
     width: 16px;
     height: 18px;
