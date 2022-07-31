@@ -376,38 +376,6 @@ body {
     color: #B38876;
 }
 
-.offer-images {
-    position: relative;
-}
-
-.arrow-left {
-    position: absolute;
-}
-
-.arrow-right {
-    position: absolute;
-}
-
-.arrow-left:hover,
-.arrow-left:active {
-    background-color:#B38876;
-}
-
-.arrow-left:hover #prev,
-.arrow-left:active #prev {
-    fill: #fff;
-}
-
-.arrow-right:hover,
-.arrow-right:active {
-    background-color:#B38876;
-}
-
-.arrow-right:hover #next,
-.arrow-right:active #next {
-    fill: #fff;
-}
-
 .offer-list {
     list-style: none;
     padding: 0;
@@ -638,34 +606,6 @@ body {
     position: relative;
 }
 
-.prev {
-    position: absolute;
-    border: 1px solid #EDEEEF;
-}
-
-.next {
-    position: absolute;
-    border: 1px solid #EDEEEF;
-}
-
-.prev:hover,
-.prev:active {
-    background-color:#B38876;
-}
-
-.prev:hover #prev_svg {
-    fill: #FFFFFF;
-}
-
-.next:hover,
-.next:active {
-    background-color:#B38876;
-}
-
-.next:hover #next_svg {
-    fill: #FFFFFF;
-}
-
 .comment-text {
     position: relative;
     font-family: 'Poppins';
@@ -709,14 +649,11 @@ body {
 .comment-list {
     list-style: none;
     padding: 0;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .comment-card {
     position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     background: #FFFFFF;
     border: 1px solid rgba(46, 52, 67, 0.07);
 }
@@ -726,15 +663,6 @@ body {
     top: -50px;
     left: 50%;
     transform: translateX(-50%);
-}
-
-.comment-card:hover {
-    transform: translateY(-40px);
-    box-shadow: 0px 55px 80px -10px rgba(30, 30, 30, 0.04);
-}
-
-.comment-card:hover img {
-    display: none;
 }
 
 .comment-card::before {
@@ -1351,21 +1279,6 @@ body {
     height: 18px;
 }
 
-/* @media screen and (min-width: 320px) {
-    .container {
-        width: 320px;
-    }
-
-    .menu-item {
-        display: none;
-    }
-
-    .phone-numb {
-        text-align: center;
-        font-size: 14px;
-    }
-} */
-
 @media screen and (min-width: 1440px) {
     .container {
         width: 1440px;
@@ -1665,61 +1578,55 @@ body {
         flex-direction: row;
     }
 
-    .arrow-left {
-        position: absolute;
-        left: 993px;
-        top: -130px;
-        width: 61px;
-        height: 61px;
-        border: 1px solid #EDEEEF;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .arrow-right {
-        position: absolute;
-        width: 61px;
-        height: 61px;
-        left: 1076px;
-        top: -130px;
-        border: 1px solid #EDEEEF;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .slick-prev {
+    .offer-list .slick-arrow.slick-prev {
         position: absolute;
         overflow: hidden;
         left: 993px;
         top: -130px;
         width: 61px;
         height: 61px;
-        opacity: 0;
+        font-size: 0;
+        border: 1px solid #EDEEEF;
+        background: url(./IMG/logo/Arrow-left.svg);
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
-    .slick-next {
+    .offer-list .slick-arrow.slick-prev:hover {
+        background: url(./IMG/logo/Arrow-l-w.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #B38876;
+    }
+
+    .offer-list .slick-arrow.slick-next {
         position: absolute;
-        overflow: hidden;
         width: 61px;
         height: 61px;
         left: 1076px;
         top: -130px;
-        opacity: 0;
+        font-size: 0;
+        border: 1px solid #EDEEEF;
+        background: url(./IMG/logo/Arrow-right.svg);
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
-    .slick-slider {
+    .offer-list .slick-arrow.slick-next:hover {
+        background: url(./IMG/logo/Arrow-r-w.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #B38876;
+    }
+
+    .offer-list .slick-list {
         width: 1140px;
     }
 
-    .offer-card {
+    .offer-list .slick-slide {
         width: 355px;
         height: 450px;
-    }
-
-    .offer-card li {
-        overflow: hidden;
+        margin: 0 20px;
     }
 
     .offer-card-wrapper {
@@ -1750,6 +1657,7 @@ body {
     }
 
     .certificate-list .slick-list {
+        width: 1290px;
         height: 274px;
     }
 
@@ -1759,6 +1667,47 @@ body {
 
     .certificate-title {
         margin-bottom: 70px;
+    }
+
+    .certificate-list .slick-arrow.slick-prev {
+        position: absolute;
+        overflow: hidden;
+        left: 993px;
+        top: -130px;
+        width: 61px;
+        height: 61px;
+        font-size: 0;
+        border: 1px solid #EDEEEF;
+        background: url(./IMG/logo/Arrow-left.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .certificate-list .slick-arrow.slick-prev:hover {
+        background: url(./IMG/logo/Arrow-l-w.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #B38876;
+    }
+
+    .certificate-list .slick-arrow.slick-next {
+        position: absolute;
+        width: 61px;
+        height: 61px;
+        left: 1076px;
+        top: -130px;
+        font-size: 0;
+        border: 1px solid #EDEEEF;
+        background: url(./IMG/logo/Arrow-right.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .certificate-list .slick-arrow.slick-next:hover {
+        background: url(./IMG/logo/Arrow-r-w.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #B38876;
     }
 
     /* form */
@@ -1816,46 +1765,63 @@ body {
 
     .comment-list {
         position: relative;
+        list-style: none;
+        display: flex;
+        height: 380px;
     }
 
-    .prev {
+    .comment-list .slick-list {
+        width: 1440px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .comment-list .slick-arrow.slick-prev {
         position: absolute;
         left: 649px;
-        bottom: 160px;
+        top: 440px;
         width: 61px;
         height: 61px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        font-size: 0;
+        border: 1px solid #EDEEEF;
+        background: url(./IMG/logo/Arrow-left.svg);
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
-    .comment-list .slick-prev {
-        position: absolute;
-        left: 649px;
-        top: 380px;
-        width: 61px;
-        height: 61px;
-        opacity: 0;
+    .comment-list .slick-arrow.slick-prev:hover {
+        background: url(./IMG/logo/Arrow-l-w.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #B38876;
     }
 
-    .next {
-        position: absolute;
-        width: 61px;
-        height: 61px;
-        right: 649px;
-        bottom: 160px;
-        display: flex;
-        justify-content: center;
-        align-items: center;;
+    .comment-list .comment-card {
+        height: 340px;
     }
 
-    .comment-list .slick-next {
+    .comment-list .slick-list .slick-track {
+        height: 340px;
+    }
+
+    .comment-list .slick-arrow.slick-next {
         position: absolute;
         width: 61px;
         height: 61px;
         left: 730px;
-        top: 380px;
-        opacity: 0;
+        top: 440px;
+        font-size: 0;
+        border: 1px solid #EDEEEF;
+        background: url(./IMG/logo/Arrow-right.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .comment-list .slick-arrow.slick-next:hover {
+        background: url(./IMG/logo/Arrow-r-w.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #B38876;
     }
 
     .comment-text {
@@ -1866,20 +1832,20 @@ body {
         margin-bottom: 70px;
     }
 
-    .comment-list {
-        width: 1440px;
-        list-style: none;
-        display: flex;
-        flex-direction: row;
-        height: 320px;
-    }
-
     .comment-card {
         width: 570px !important;
-        height: 320px;
-        left: 0px;
-        top: 39px;
-        margin: 0 20px;
+        text-align: center;
+        margin: 36px 20px 0 20px;
+    }
+
+    .comment-card.slick-center {
+        transform: translateY(-36px);
+        box-shadow: 0px 55px 80px -10px rgba(30, 30, 30, 0.04);
+        transition: all 0.5s ease-out;
+    }
+
+    .comment-card.slick-center img {
+        display: none;
     }
 
     .comment-card::before {
