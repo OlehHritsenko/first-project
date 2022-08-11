@@ -136,7 +136,30 @@
                     <p class="offer-text">Was biete ich Ihnen an</p>
                     <h2 class="offer-title">Meine <span>Leistungen</span></h2>
                     <div class="offer-images">
+                        <div class="list-counter">
+                            <div class="sl-count"><span class="sl-count-current">1</span>/<span class="sl-count-total"></span></div>
+                        </div>
                         <ul class="offer-list">
+                            <li class="offer-card">
+                                <img src="IMG/image/Rectangle 1.jpg" alt="image" class="offer-image-card" width="355px" height="450px">
+                                <div class="offer-card-wrapper">
+                                    <h4 class="offer-card-title">Verhaltenstherapie</h4>
+                                    <p class="offer-card-text">Lorem ipsum dolor sit amet, consectetur adipiscing do eiusm.</p>
+                                    <div class="offer-link-wrapper">
+                                        <a href="#" class="offer-link">Zur Unterseite</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="offer-card">
+                                <img src="IMG/image/Rectangle 1.jpg" alt="image" class="offer-image-card" width="355px" height="450px">
+                                <div class="offer-card-wrapper">
+                                    <h4 class="offer-card-title">Verhaltenstherapie</h4>
+                                    <p class="offer-card-text">Lorem ipsum dolor sit amet, consectetur adipiscing do eiusm.</p>
+                                    <div class="offer-link-wrapper">
+                                        <a href="#" class="offer-link">Zur Unterseite</a>
+                                    </div>
+                                </div>
+                            </li>
                             <li class="offer-card">
                                 <img src="IMG/image/Rectangle 1.jpg" alt="image" class="offer-image-card" width="355px" height="450px">
                                 <div class="offer-card-wrapper">
@@ -203,6 +226,9 @@
                                 <img src="IMG/image/image 7.jpg" alt="certificate" width="450px" height="274px">
                             </li>
                         </ul>
+                        <div class="certificate-list-counter">
+                            <div class="sl-count"><span class="sl-count-current">1</span>/<span class="sl-count-total"></span></div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -253,6 +279,9 @@
                         <p class="comment-more">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                     </li>
                 </ul>
+                <div class="comment-counter">
+                    <div class="sl-count"><span class="sl-count-current">1</span>/<span class="sl-count-total"></span></div>
+                </div>
             </section>
             <section class="choice">
                 <div class="choice-box container">
@@ -329,6 +358,9 @@
                         <source media="(min-width: 768px)" srcset="IMG/image/map.png">
                         <img src="IMG/image/map-mob.png" alt="map">
                     </picture>
+                    <div  class="iframe-map" style="width: 100%">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7725.360948892066!2d14.238130747529498!3d61.048623153670505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46687670ec815f83%3A0x6436cb8de088b0b1!2zNzkyIDk0IE15Y2tlbGJlcmcsINCo0LLQtdGG0ZbRjw!5e0!3m2!1suk!2sua!4v1659686942035!5m2!1suk!2sua" width="280" height="268" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                 </div>
                 <div class="contact-box container">
                     <h2 class="contact-title">Kontakt</h2>
@@ -368,11 +400,11 @@
                     <span>Datenschutz</span>
                 </div>
             </div>
-            <div>
+            <div class="footer-email-box">
                 <h2 class="footer-title">— Let's take our relationship to the next level</h2>
                 <p class="footer-text">Newsletter</p>
                 <div class="email-line">
-                    <p class="address-click">enter you email address</p>
+                    <input class="address-click" type="email" placeholder="enter you email address"></input>
                     <a href="#" class="footer-link">Subscribe</a>
                 </div>
             </div>
@@ -380,9 +412,9 @@
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="./js/burger.js"></script>
-    <script src="./js/script.js"></script>
-    <script src="./js/certificate.js"></script>
-    <script src="./js/comment.js"></script>
+    <script src="./js/burger.js" type="module"></script>
+    <script src="./js/script.js" type="module"></script>
+    <script src="./js/certificate.js" type="module"></script>
+    <script src="./js/comment.js" type="module"></script>
 </body>
 </html>
